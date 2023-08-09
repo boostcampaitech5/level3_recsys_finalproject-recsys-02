@@ -45,6 +45,9 @@
 ├── code
 │   ├── feature_map # id2idx , item2idx 등 idx를 정리한 json 파일
 │   ├── text # 와인 텍스트 전처리 및 학습 코드
+│	│   ├── train_bert.py
+│	│   ├── train_bert_multilabel.py
+│	│   └── train_utils.py
 │   └── data # 데이터 전처리 파이프라인 코드
 ├── crawl # crawling 코드
 ├── EDA.ipynb # 수집된 데이터 EDA 및 전처리
@@ -94,6 +97,10 @@
     ├── poetry.lock
     ├── pyproject.toml
     ├── routers
+    │   ├── home_router.py
+    │   ├── mbti_router.py
+    │   ├── user_router.py
+    │   └── wine_router.py 
     ├── schema.py
     ├── user_data_generator.py
     └── utils.py
